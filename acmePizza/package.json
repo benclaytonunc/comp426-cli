@@ -1,0 +1,15 @@
+{
+    "name": "acmePizza",
+    "version": "1.0.0",
+    "description": "",
+    "main": "script.js",
+    "scripts": {
+        "acme": "node src/bulma/script.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "browser-sync": "^2.26.14"
+    }
+}

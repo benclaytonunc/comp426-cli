@@ -28,7 +28,16 @@ export function getHeroByIdCallback(heroData, id, callback) {
 
   // 3. After 1.5 seconds, execute the callback() function, passing in the hero
   //    with the correct id as a parameter to the function.
+  setTimeout(() =>{
+    for( var a =0; a < heroData.length; a++){
+      if (heroData[a].id == id){
+        callback(heroData[a]);
+        break;
+      }
+    }
+  }, 1500); 
 }
+
 
 
 // Uncomment this code to locally run your getHeroByIdCallback() function

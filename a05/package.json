@@ -1,0 +1,16 @@
+{
+    "name": "a05",
+    "version": "2.0.0",
+    "type": "module",
+    "description": "",
+    "main": " test.js",
+    "scripts": {
+      "test": "node render.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "jquery": "^3.5.1",
+      "package": "^1.0.1"
+    }
+  }

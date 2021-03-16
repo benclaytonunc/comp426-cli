@@ -1,0 +1,47 @@
+h1 {
+    color: #000000;
+    font-size: 400%;
+    font-weight: bold;
+    text-align: center;
+}
+h2 {
+    color: #000000;
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+}
+h3 {
+    color: #009468;
+    font-size: 250%;
+    font-weight: bold;
+}
+.gameBox{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgb(28, 25, 226);
+    color: rgb(255, 255, 255);
+    padding:10px;
+}
+
+.piece{ 
+    background-color: rgb(24, 182, 221);
+    color: #ffffff;
+    font-size: 150%;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.gameLost{
+    color: #ff0000;
+    font-size: 250%;
+    font-weight: bold;
+    text-align: center;
+}
+.gameWon{
+    color: #188d1e;
+    text-align: center;
+    font-size: 250%;
+    font-weight: bold;
+}

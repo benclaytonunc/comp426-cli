@@ -19,7 +19,13 @@ document.body.onload = async function () {
 
   // TODO: Write code to solve the maze here
   //  \/ \/ \/ \/ \/
-
+  const currentMV = ['north', 'east', 'east', 'north'];
+  token.moveAsync(currentMV.shift());
+  token.on('moveEnd', function() {
+      if (currentMV.length > 0) {
+          token.moveAsync(currentMV.shift());
+      }
+  });
 
 
   //  /\ /\ /\ /\ /\

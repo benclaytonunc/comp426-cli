@@ -1,0 +1,71 @@
+
+        body { background-color: orange;}
+        h1 {
+            color:brown;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+        }
+        p {
+            font-family: verdana;
+            font-size: 24px;
+            color:brown;
+        }
+        p.highlight :hover {
+            color: blue;
+        }
+        #thing {
+            color:black;
+            background-color: green;
+        }
+        #title1 {
+            color: black;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 40px;
+        }
+        #parabrown {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
+            color:brown;
+            background-color: #f5deb3;
+        }
+        #parablue {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
+            color:blue;
+            border-style: dotted;
+            width: max-content;
+            height: 30px;
+        }
+
+        #parablack {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
+            color:black;
+            border-style: dashed;
+        }
+
+        #parared {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
+            color:red;
+        }
+
+        #parawhite {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
+            color: white;
+        }
+
+        #parapurple {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
+            color:purple;
+        }
+
+        #paradarkblue {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
+            color:darkblue;
+        }
+
+

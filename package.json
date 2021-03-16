@@ -9,11 +9,24 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bestzip": "^2.1.4",
+    "bestzip": "^2.1.7",
+    "browser-sync": "^2.26.14",
+    "bulma": "^0.9.2",
     "chalk": "^2.4.2",
     "cryptr": "^4.0.2",
     "dotenv": "^8.0.0",
     "form-data": "^2.5.0",
+    "jquery": "^3.5.1",
     "prompts": "^2.1.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onsmith/comp426-cli.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/onsmith/comp426-cli/issues"
+  },
+  "homepage": "https://github.com/onsmith/comp426-cli#readme"
 }

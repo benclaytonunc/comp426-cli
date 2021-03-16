@@ -19,11 +19,26 @@ import { heroData } from "./data";
  */
 export function getHeroByIdAsync(heroData, id) {
   // Copy-and-paste code here
+  return  new Promise(((resolve,reject) => {
+    setTimeout(() =>{
+      var ticker = false
+      for(var a = 0; a < heroData.length; a++){
+        if (heroData[a].id == id){
+          resolve(heroData[a]);
+          ticker = true;
+          break;
+        }
+      }
+      if(ticker != true){
+        reject()
+      }
+    }, 1500);
+  }));
 }
 
 
 // Uncomment this code to locally run your getHeroByIdCallback() function
-/*
+
 async function run() {
   const hero2 = await getHeroByIdAsync(heroData, 2);
   console.log(`Because we are awaiting, this will run after the hero2 promise finishes: ${JSON.stringify(hero2, null, 2)}`);
@@ -35,7 +50,7 @@ async function run() {
   }
 }
 run();
-*/
+
 
 
 
