@@ -24,7 +24,7 @@ export function avgMpg(array) {
     var cityCount = 0;
     var citySum = 0;
     var hwayCount = 0;
-    var hwaySum = 0;
+    var hwaySum = 0; // sum of highway mpgs of cars
     for (var i = 0; i < array.length; i++) {
         hwaySum += array[i].highway_mpg;
         citySum += array[i].city_mpg;
