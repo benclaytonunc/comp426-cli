@@ -10,7 +10,8 @@
     "medium_1": "node src/medium/medium_1.js",
     "medium_2": "node src/medium/medium_2.js",
     "medium_3": "node src/medium/medium_3.js",
-    "spicy_9": "node src/spicy/spicy_9.js"
+    "spicy_9": "node src/spicy/spicy_9.js",
+    "extra": "node src/spicy/extra.js"
   },
   "author": "",
   "license": "ISC"
